@@ -8,13 +8,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import d3dCom.BasePage;
 import d3dCom.Pages.GetaQuote_pages;
-import gherkin.lexer.Th;
-import org.openqa.selenium.By;
 import org.openqa.selenium.support.PageFactory;
-
-import static d3dCom.BasePage.driver;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 public class GetaQuote_sd {
 
@@ -157,4 +151,6 @@ public class GetaQuote_sd {
       GQpage.datatable(details);
         Thread.sleep(10000);
     }
+
+
 }

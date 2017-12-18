@@ -59,4 +59,3 @@ Feature: Register
     When I submit Register button
     Then I should see the error message as "Username is not valid"
     
-    // rechecking sourcetree

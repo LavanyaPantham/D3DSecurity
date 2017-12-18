@@ -24,7 +24,7 @@ public class BasePage {
     }
 
     public void openurl(String url){
-        driver.manage().window().maximize(); // to maximize the window
+        driver.manage().window().maximize();
         driver.get(url);
 
     }
